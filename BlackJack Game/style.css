@@ -1,0 +1,78 @@
+body {
+    background: darkgreen;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+fieldset {
+    background: #016f32;
+    border: 2px solid darkgreen;
+    border-radius: 2rem;
+    cursor: default;
+}
+
+fieldset:hover {
+    background: transparent;
+    border: 5px solid #016f32;
+}
+
+::placeholder{
+    color: #828dae;
+    font-size: 0.85em;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.submit-btn{
+    background: rgba(77, 181, 255, 0.4);
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 120px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #4db5ff;
+    color: #2c2c6c;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgba(77, 181, 255, 0.4);
+    background: none;
+    font-size: 1em;
+    padding: 10px 20px;
+}
